@@ -224,7 +224,7 @@ form{
 .campo-1{
     margin-bottom: 15px;
 }
-textarea{ width: 520px !important;}
+textarea{ width: 400px !important;}
   .footer-txt{
     text-align: center;
     padding: 10px;
@@ -285,6 +285,17 @@ textarea{ width: 520px !important;}
     padding: 100px 0;
 }
 
+.serviss{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.39),
+	rgba(0, 0, 0, 0.377)), 
+	url(img/coffee-2734137_1280.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 100px 0;
+}
+
 .sabores{
     background-image: linear-gradient(rgba(0, 0, 0, 0.39),
     rgba(0, 0, 0, 0.377)), 
@@ -306,7 +317,11 @@ textarea{ width: 520px !important;}
     text-transform: uppercase;
     margin-bottom: 50px;
 }
+.servis-content h3{ color: #ce8346;
+    font-size: 18px;}
 
+	.servis-content h4{ color: #eaccb3;
+    font-size: 18px;}
 .servis-content p{
     font-size: 16px;
     color: #c5c5c5;
@@ -326,11 +341,6 @@ textarea{ width: 520px !important;}
 .servis-1 img{
     width: 25px;
     margin-bottom: 15px;
-}
-
-.servis-1 h3{
-    color: #eaccb3;
-    font-size: 18px;
 }
 .general{
     display: flex;

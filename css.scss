@@ -6,11 +6,12 @@ $color_5: var(--dark-color);
 $color_6: #ffffff;
 $color_7: #777;
 $color_8: #f9fafc;
-$color_9: #c5c5c5;
+$color_9: #ce8346;
 $color_10: #eaccb3;
-$color_11: #e1e2e6;
-$color_12: #eee;
-$color_13: black;
+$color_11: #c5c5c5;
+$color_12: #e1e2e6;
+$color_13: #eee;
+$color_14: black;
 $font-family_1: 'Poppins', sans-serif;
 $font-family_2: inherit;
 $background-color_1: tomato;
@@ -237,7 +238,7 @@ form {
 	margin-bottom: 15px;
 }
 textarea {
-	width: 520px !important;
+	width: 400px !important;
 }
 .footer-txt {
 	text-align: center;
@@ -290,6 +291,14 @@ textarea {
 	background-attachment: fixed;
 	padding: 100px 0;
 }
+.serviss {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.377)), url(img/coffee-2734137_1280.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 100px 0;
+}
 .sabores {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.377)), url(img/lista\ de\ sabores.jpg);
 	background-position: center center;
@@ -307,9 +316,17 @@ textarea {
 		text-transform: uppercase;
 		margin-bottom: 50px;
 	}
+	h3 {
+		color: $color_9;
+		font-size: 18px;
+	}
+	h4 {
+		color: $color_10;
+		font-size: 18px;
+	}
 	p {
 		font-size: 16px;
-		color: $color_9;
+		color: $color_11;
 		margin-bottom: 50px;
 		padding: 0 100px;
 	}
@@ -325,10 +342,6 @@ textarea {
 		width: 25px;
 		margin-bottom: 15px;
 	}
-	h3 {
-		color: $color_10;
-		font-size: 18px;
-	}
 }
 .general {
 	display: flex;
@@ -340,7 +353,7 @@ textarea {
 	}
 	h2 {
 		font-size: 2rem;
-		color: $color_13;
+		color: $color_14;
 		text-transform: capitalize;
 		position: relative;
 	}
@@ -381,7 +394,7 @@ textarea {
 	}
 	h3 {
 		font-size: 25px;
-		color: $color_11;
+		color: $color_12;
 	}
 }
 .banner {
@@ -858,7 +871,7 @@ textarea {
 		width: 100%;
 		font-family: $font-family_2;
 		&::-webkit-input-placeholder {
-			color: $color_12;
+			color: $color_13;
 		}
 	}
 	button {
